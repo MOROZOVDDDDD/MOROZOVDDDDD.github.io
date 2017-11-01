@@ -2,6 +2,8 @@ body {
     background-image: url(images/background.png); /* фон */	
 }
 
+
+
 #zagolovok1 {
   font-size: 35px;
   font-family:Intro;
@@ -32,12 +34,25 @@ color:#FFFFFF;
 #otsiv:hover {
   color:#432DB3;
 }
+#otsiv:link {
+  color: white;  
+}  
+#otsiv:active {
+  color: white;  
+}         
+
 
 #garant:visited {  /* анимация гарантии */
 color:#FFFFFF;
 }
 #garant:hover {
   color:#432DB3;  
+}
+#garant:link {
+  color: white;  
+}  
+#garant:active {
+  color: white;  
 }
 
 #faq:visited {  /* анимация FAQ*/
@@ -46,12 +61,24 @@ color:#FFFFFF;
 #faq:hover {
   color:#432DB3;  
 }
+#faq:link {
+  color: white;  
+}  
+#faq:active {
+  color: white;  
+}
 
 #rasdat:visited {  /* анимация раздач */
 color:#FFFFFF;
 }
 #rasdat:hover {
   color:#432DB3;  
+}
+#rasdat:link {
+  color: white;  
+}  
+#rasdat:active {
+  color: white;  
 }
 
 .povorot {
