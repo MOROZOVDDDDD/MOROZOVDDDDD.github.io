@@ -1,0 +1,71 @@
+body {
+    background-image: url(images/background.png); /* фон */	
+}
+
+#zagolovok1 {
+  font-size: 35px;
+  font-family:Intro;
+  color:#FFFFFF;
+  text-align: center;	
+  margin-bottom: 1px;
+}
+
+#zagolovok2 {
+  font-size: 12px;
+  font-family:Intro;
+  color:#FFFFFF;  
+  text-align: center;
+}
+
+.buttoms {
+  font-size: 18px;
+  font-family:Intro;
+  color:white;  
+  text-align: center;  
+  animation-duration: 4s;
+}
+
+
+#otsiv:visited {  /* анимация отзывов */
+color:#FFFFFF;
+}
+#otsiv:hover {
+  color:#432DB3;
+}
+
+#garant:visited {  /* анимация гарантии */
+color:#FFFFFF;
+}
+#garant:hover {
+  color:#432DB3;  
+}
+
+#faq:visited {  /* анимация FAQ*/
+color:#FFFFFF;
+}
+#faq:hover {
+  color:#432DB3;  
+}
+
+#rasdat:visited {  /* анимация раздач */
+color:#FFFFFF;
+}
+#rasdat:hover {
+  color:#432DB3;  
+}
+
+.povorot {
+   transition: color 2s, transform 2s; 
+}
+.povorot:hover {
+  -webkit-transform: rotate(-5deg); /*Chrome, Safari */
+  -moz-transform: rotate(-5deg); /*Firefox*/
+  -o-transform: rotate(-5deg); /*Opera */
+  -ms-transform: rotate(-5deg); /*IE */
+  transform: rotate(-5deg); /*браузеры без префексов */  
+}
+
+.image {
+  text-align: center;
+}
+

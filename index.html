@@ -1,93 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<link rel="icon" href="icon.ico">
-		<meta charset="UTF-8">
-		<title>Morozov</title>
-		<link href="css/core.css" rel="stylesheet">
-		<link href="css/animate.css" rel="stylesheet">
-		<meta name="yandex-verification" content="f9cfe1c00003167a">
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-		<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-		<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/B9C72858-5603-8649-8262-9C377D6517E0/main.js" charset="UTF-8"></script><script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/modernizr.custom.js"></script>
-        <!--<script src="js/plugins.min.js"></script>-->
-		<script src="js/main.js"></script>
-		<style type="text/css">
-		.lightbox {
-			margin-top: 10%;
-		}
-		body, a, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:url(images/cursor/cursor2.cur),pointer;}
-		<style>@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h1{font-family:Pompadur,'Comic Sans MS',cursive;}</style>
-		<script> 
-			document.onkeydown = function(e) { 
-			if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) { 
-			} 
-			return false; 
-			}; 
-			</script>
-		<script> 
-			function click() { 
-			if (event.button==2||event.button==3) { 
-			oncontextmenu='return false'; 
-			} 
-			} 
-			document.onmousedown=click 
-			document.oncontextmenu = new Function("return false;") 
-			</script>
-		<script>
-			function disableWheelScroll(){
-			if (document.body.addEventListener) document.body.addEventListener('DOMMouseScroll', blockWheel, false);
-			document.body.onmousewheel = blockWheel;
-			}
-			function blockWheel(event){
-			if (!event) event = window.event;
-			if (event.stopPropagation) event.stopPropagation();
-			else event.cancelBubble = true;
-			if(event.preventDefault) event.preventDefault();
-			else event.returnValue = false;
-			}
-			disableWheelScroll();
-			</script>
-	</head>
-	<body onmousedown="return false" onselectstart="return false">
-	<style>body{overflow:hidden}</style>
-	<script>disableWheelScroll();</script>
-	<div id="star" class="video mask overlay">
-    <!--<i class="volume-button fa fa-volume-up"></i>-->
-		<div class="video-fallback"></div>
-		<video id="video" autoplay loop>
-			<source src="videos/video.mp4" type="video/mp4"/>
-			Your browser does not support the video tag. I suggest you upgrade your browser.
-		</video>
-		<canvas class="cover"></canvas>
-	</div>
-	<div class="pageoverlay">
-		<div class="lightbox">
-			<div class="awrapper">
-				<div class="titles fadeInDown">
-					<h1
-                    target="_blank"; href=""> <img src="http://imageshack.com/a/img923/2300/kJ0BJd.png">                 
-					</h1>
-					<h2 target="_blank"; href=""> <img src="http://imageshack.com/a/img922/5637/m8Q3Tv.png">
-					</h2>
-					<h3 target="_blank"; href=""> <img src="http://imageshack.com/a/img924/7938/uFOsvg.png"> 
-				    </h3>
-					</div>
-					<div class="media fadeInUp">
-                    <a  target="_blank"; href="https://vk.com/dima_yaass"> <img src="http://i056.radikal.ru/1710/7e/8700ba92d3cb.png"></a> 
+<html>
+	
+  <head>
+    <meta charset="UTF-8"/>
+  	<title>LuckyMine.ru - выиграй топовую игру всего за 69р!</title>
+    <link href="css.css" rel="stylesheet" type="text/css"/>
+    <style> a { 
+    text-decoration: none; 
+    }  
+    </style>
+  </head>
 
-                    <a  target="_blank"; href="https://www.youtube.com/channel/UCIM4RiDoAm0cBDRzV707hCA"> <img src="http://s015.radikal.ru/i332/1710/f3/9711301fb391.png"></a>
+  <body> 
+    <h1 id="zagolovok1" style="margin-bottom: -15px" href="#">LUCKYMINE</h1> 
+    <h2 id="zagolovok2" style="margin-bottom: 40px" href="#">ИГРАЙ И ВЫИГРЫВАЙ!</h2> 
+    <div class="buttoms">
+	  <a href="#" style="margin: 15px" class="povorot" id="otsiv">ОТЗЫВЫ</a>
+	  <a href="#" style="margin: 15px" class="povorot" id="garant">ГАРАНТИИ</a>
+	  <a href="#" style="margin: 15px" class="povorot" id="faq">F.A.Q</a>
+	  <a href="#" style="margin: 15px" class="povorot" id="rasdat">КОНКУРСЫ И РАЗДАЧИ</a>	  
+    </div>
+    <div> 
+    	<img src="images/vinoska1.png">
+    </div>    
+  </body>
 
-                    <a  target="_blank"; href="https://vk.com/dmbdesign"> <img src="http://i056.radikal.ru/1710/7e/8700ba92d3cb.png"></a>
-					
-                    <a  target="_blank"; href="https://www.instagram.com/dima_yaass/"> <img src="http://s016.radikal.ru/i335/1710/a0/5d66ef033418.png"></a> 
-
-                    <a  target="_blank"; href="https://vk.com/but_it_is_beautiful"> <img src="http://i056.radikal.ru/1710/7e/8700ba92d3cb.png"></a>                    
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
 </html>
